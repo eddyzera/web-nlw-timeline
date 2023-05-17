@@ -20,16 +20,20 @@ export default function Home() {
             memórias!
           </p>
         </a>
-        <div>
+        <div className="space-y-5">
           <Image src={nlwLogo} alt="NLW Space" />
-          <div>
-            <h1>Sua cápsula do tempoo</h1>
+          <div className="max-w-[420px] space-y-1">
+            <h1 className="mt-5 text-4xl font-bold leading-tight text-gray-50">
+              Sua cápsula do tempo
+            </h1>
             <p>
               Colecione momentos marcantes da sua jornada e compartilhe (se
               quiser) com o mundo!
             </p>
           </div>
-          <a href="">CADASTRAR LEMBRANçA</a>
+          <a className="inline-block" href="">
+            CADASTRAR LEMBRANçA
+          </a>
         </div>
       </div>
 
