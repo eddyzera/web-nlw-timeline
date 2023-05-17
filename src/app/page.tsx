@@ -1,4 +1,6 @@
 import { User } from 'lucide-react'
+import Image from 'next/image'
+import nlwLogo from '../assets/nlw-space-time-logo.svg'
 
 export default function Home() {
   return (
@@ -18,7 +20,18 @@ export default function Home() {
             memórias!
           </p>
         </a>
+        <div>
+          <Image src={nlwLogo} alt="NLW Space" />
+          <div>
+            <h1>Sua cápsula do tempoo</h1>
+            <p>
+              Colecione momentos marcantes da sua jornada e compartilhe (se
+              quiser) com o mundo!
+            </p>
+          </div>
+        </div>
       </div>
+
       <div className="flex flex-col bg-[url(../assets/bg-stars.svg)] bg-cover p-16">
         <div className="flex flex-1 items-center justify-center">
           <p className="w-[360px] text-center leading-relaxed">
