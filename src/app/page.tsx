@@ -29,6 +29,7 @@ export default function Home() {
               quiser) com o mundo!
             </p>
           </div>
+          <a href="">CADASTRAR LEMBRANçA</a>
         </div>
       </div>
 
